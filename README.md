@@ -1,5 +1,5 @@
 
-# NTM-GAN-LSTM
+# Air quality particulate-pollution prediction applying GAN network and the Neural Turing Machine
 
 A hybrid deep learning framework for **air quality prediction**, combining:
 - **Neural Turing Machines (NTM)** for memory-augmented learning,
