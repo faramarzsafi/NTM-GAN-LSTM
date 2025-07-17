@@ -26,6 +26,23 @@ This project addresses prediction challenges using a hybrid DL model that:
 
 ---
 
+
+---
+
+## 🧬 Model Architecture Overview
+
+The following diagram illustrates the **DAerosol.GAN.NTM** framework as proposed in the paper. It showcases the integration of:
+
+- **GAN** for generating and restoring missing or corrupted pollution data
+- **NTM controller with LSTM** for time-series prediction using external memory
+- **Deep Neural Network** evaluation with final prediction for PM2.5, PM10, and AQI
+- **TIBAAE** (Time Interval Before and After Aerosol Event) for surge prediction
+
+![DAerosol.GAN.NTM Framework](framework-diagram.png)
+
+*Fig. 3 from the published article, depicting the end-to-end deep learning pipeline for aerosol prediction.*
+
+
 ## 📁 Project Structure
 
 ```
@@ -115,20 +132,3 @@ For questions or collaborations:
 ## 🛡 License
 
 This research code is shared for academic use only. Please consult the authors before any commercial use.
-
-
----
-
-## 🧬 Model Architecture Overview
-
-The following diagram illustrates the **DAerosol.GAN.NTM** framework as proposed in the paper. It showcases the integration of:
-
-- **GAN** for generating and restoring missing or corrupted pollution data
-- **NTM controller with LSTM** for time-series prediction using external memory
-- **Deep Neural Network** evaluation with final prediction for PM2.5, PM10, and AQI
-- **TIBAAE** (Time Interval Before and After Aerosol Event) for surge prediction
-
-![DAerosol.GAN.NTM Framework](framework-diagram.png)
-
-*Fig. 3 from the published article, depicting the end-to-end deep learning pipeline for aerosol prediction.*
-
