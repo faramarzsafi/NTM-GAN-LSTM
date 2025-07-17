@@ -124,8 +124,8 @@ If you use this work, please cite the following paper:
 
 For questions or collaborations:
 
+- Faramarz Safi-Esfahani – `faramarz.safiesfahani@uts.edu.au`
 - Zahra-Sadat Asaei-Moamam – `zahraasaei@sco.iaun.ac.ir`  
-- Faramarz Safi-Esfahani – `safi@iaun.ac.ir`
 
 ---
 
